@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY ADALAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logosih-removebg-preview.png" type="image/x-image">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbarMain sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <!-- Logo -->
+                <img class="logo" src="images/logosih-removebg-preview.png" alt="">
+            </a>
+            <a class="navbar-brand bigFont underlinedBoldText" href="cases.html">Cases</a>
+            <a class="navbar-brand bigFont" href="lawyer.html">Lawyers</a>
+            <!-- <a class="navbar-brand bigFont" href="judges.html">Judges</a> -->
+            <a class="navbar-brand "></a>
+            <a class="navbar-brand "></a>
+            <a class="navbar-brand"></a>
+            <!-- <a href="newcasesForm.html"><button class="btn btn-light bigFont">New Lawyers +</button></a> -->
+            <a class="navbar-brand"></a>
+            <form class="d-flex menuform">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <a class="anchorImg" href=""> <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAf9JREFUSEvt1kuoTlEUwPHfTZnJa2AmpSgDJI8ir0LJwEAZoIgykaEUZYKUITKQKGSAlJLkEUpChBETmRhIkcdMXq3bPnX6fOexz731TazJ6Zy91/qfvfZ6DRmQDA2Iqyt4PHannz6Or7kH6AKeiMeYkWCvsQjfc+A54AnYjx0IeFk+4QwO4VubH2gL3oRjmNxg9CN24loTvA14Hw6XDL3AXTxP3+ZjNWaX9uzCyTp4E3gVbicDn7EZNysMrsd5jEvrC/CsCl4HjrU3KYh+pAB62eDCZbjPcLY8xNIu4HW4nhQP4GDTvaX1EwhXh8xDXM0/UnfiCKbI1V+Y1DZaMTN5KmB7cTQXfANr8QpzW5622PYBU3AOW3PB97ACD9Izhx33uwR3UsRnuTqCZHlHcKNu3R03Kte4oFH3P7jwXlShSxibKteanMjCrRRUUXg29qvd/Vy9JaVBsbYBVzPBoXMl6UQd2IYLZRu94Gl4lzb8RHSly5nQYnuc9CLG4A+m4n2x2AuOvI38DdmOsx2hhVr07tPpZWWq48OvdeCoWF9GCI7hYU4b8EI8GSGsSj3Go6dVro77OIXpowx/myaTCLS+rh5lXrW5pgmkVzO6VEwV4Zmy/E69N+KileSCw2j01z091o8gZrPW0gUcxmdhccrPR4jZOku6grMg/TYPDPwX4NZhH4tTSjAAAAAASUVORK5CYII=" /></a>
+
+                <a class="anchorImg href=""><img
+                src="
+                    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWFJREFUSEvt1r8uBFEUx/HPFkJCoVb4E95A1DSiU4lSJCREqVJI8A7+JBIegFoo6YkoREjwAhpCaIRMMiNjdndmYnZ2G1PeOfd8z7n3d885FS36Ki3iygPuxBQGCgT5iAO8Rz6ywN04x2ABaLT1FsN4CxaywEvYagA0cjGPvTzgIswOTGAbPaGjDayXDY6CDuAnWeAyhNSOjzRwaULCVxq4NCFlgYNLXwsjy1J7muiqsvsHJ5/T/1H/tWqliWsBu80+6juM4KWZ4Bkc1muLZYqr6trihaJl4EXs1FDUGcbC9TYsYxVdGer7EVItu3jGQZO4RH/CMAKPh711KIfcfwkpCxz8D7KYRi9m0Ydr3GMy5uAmnKFq+XxICikPOG5zitHEpuewkWziM0fmdU3SulAcHBSFfazgqQgw2psHfIE5XDUCmAd8hONwyozKYMPYaRkHQnttGCnhqMikUSimloG/AertaB+2LfhFAAAAAElFTkSuQmCC" /></a>
+                <form class="d-flex menuprofile" role="search">
+                    <div class="dropdown-center">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class=" profileLogo"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA5NJREFUSEvF13fo7WMcB/DXJXukbFmZIbIpioTI6mZLiOxNSHZGVkZJZv6QPTKSEZI9QkT2TIQU2Vvv2+d7e87XOb9z7l/3U6dznuezns96P8+ZZjbRtNnk16w6ngMbYyUsU4f+Eh/hZfw7aSCTOl4dx2I3LD7C+Le4E1fgw3EHGOd4UVyLXccZaviJ+i4cge9G6U3leAU8jlVKOQYfxKvNJ6wN6rMRdmBm+d7FNvhimPNRjpPO17BsKX2OvfDCmMg3w61YvtHLgb7p6w1zPBeerSaK/E04Bj+V8vzYrhos+u/jEfxe/AVxFfav9YvYHH+3zoc5vhCnlFCcHtgoJP0PYa1eBG9gF3zW7Ef3gFqfj9OncpwUpSMTddK7Jn4uhbnxHlYcke6PS76LfGG8U2P3J1ZtD9aP+HIcV4ZTr+cbJ+fgTPyFo3B78RJV9GLrDJzX6GyFJ2p9GU7seK3j/P4KS+KVpsad7JtYG7dg317Ud2CP6vYNe7zXsW5lMKWaQa3jNMAztR8QOL5n4DfMgwtwWo+XvVPxI5LiltJoR9bGJoVwA47TuVeWwO64u2fg7arhzdivx0sW9sFblZWWvXeNWPYOxzX9iNN155bGYkNQJwh2SI1VOv2xks1opYPnw9VNdJ3zNGzX7ZmWi/uOk9o0QCgXQOrd0kJI1Mv19rvlp1in0t2KLI1cJKETqhEHUp30BuRDO9a89n3EyPUFjS3vHhw95LCdrUBtKJdMZAccb9pAYsamS/uwAFfD1sV4GJ+MyEK2z8LZxc+VmokZcDwvvq6uvA/Te8ZyF6eBMt8BkdQ09CuS5qeRsfqnp/cAdsL3Nap/9B1nfWNBZEYn4J4uDQV1EtnKU0QW1gfYvh4GWWd+X0JQ7zoc2un3kWsLPFXMXGvrI3dyrsIlaj8nDph0ULpANVWMh3ITrYcfEPDIoUPBiedGOc7+/di5BHLKNFRSFQrkZWSSkZZSpuDARbWZBkoJOoS7t/+YGHY7LVIR9ccmc3zYmFTfgIN6MpnhQG1QbSaNegisgSexVCObLu4Af5T/bfFowwwWpHyp/QBN9fRJI6Xe3SskF3nKEJSKoTxp5iywiezBVZJ0fyiRblkd/7+Djnvs5bURmDupGZ8x2Z5R20uq3r+MEh7nuNNL1JdizzFeb8PJox54k9R4lP3gdR7zuVfzHcrLIwCS7+5dNi4rs/xPYqzBSQUmTfWk9iaW+w8wvLIfbQ5gBAAAAABJRU5ErkJggg==" />
+                        </button>
+
+                        <ul class="dropdown-menu dropdown">
+                            <li><a href="profile.html" class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </form>
+
+            </form>
+        </div>
+    </nav>
+
+    <div class="lawyerBase">
+        <div class="row cardPadding ">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body boxShadow">
+                        <div class="name">
+                            <img src="images/Mahesh Agrawal.png" alt="">
+                            <div class="name-col">
+                                <p>Mahesh Agarwal</p>
+                                <p>Agarwal Law Associates</p>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <p class="card-text">
+                            <p>Tel: +91 11 4220 0000</p>
+                            <p>Email: mahesh.agarwal@aglaw.in</p>
+                            <p>Key practice areas: Arbitration & ADR; intellectual property; litigation; power & energy
+                            </p>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Profile
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Mahesh Agarwal is managing partner of Agarwal Law Associates, one of the
+                                            foremost full-service law firms in India. He is widely considered to be a
+                                            leading figure with a wealth of experience in dispute resolution. He has a
+                                            diverse and large practice across the country in litigation and
+                                            international
+                                            arbitration leading one of the largest filing offices in the Supreme Court
+                                            of
+                                            India.
+                                            He is widely considered an expert in regulatory disputes, insolvency,
+                                            corporate
+                                            commercial arbitration, international investment arbitration, general
+                                            commercial
+                                            disputes, general civil disputes, and corporate crimes. He has represented
+                                            some
+                                            of India’s largest clientele in infrastructure, energy and telecoms
+                                            industries,
+                                            including Adani Group, Tata Group, and Reliance Group and international
+                                            clientele, including Monsanto and Vodafone Plc, in litigations and
+                                            arbitrations
+                                            involving transnational and domestic commercial transactions before
+                                            international and national fora.
+
+                                            Mahesh is a third-generation lawyer and an alumnus of the Shri Ram College
+                                            of
+                                            Commerce, New Delhi, and the Government Law College, Mumbai.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row cardPadding">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body  boxShadow">
+                        <div class="name">
+                            <img src="images/Mahesh Agrawal.png" alt="">
+                            <div class="name-col">
+                                <p>Mahesh Agarwal</p>
+                                <p>Agarwal Law Associates</p>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <p class="card-text">
+                            <p>Tel: +91 11 4220 0000</p>
+                            <p>Email: mahesh.agarwal@aglaw.in</p>
+                            <p>Key practice areas: Arbitration & ADR; intellectual property; litigation; power & energy
+                            </p>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Profile
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Mahesh Agarwal is managing partner of Agarwal Law Associates, one of the
+                                            foremost full-service law firms in India. He is widely considered to be a
+                                            leading figure with a wealth of experience in dispute resolution. He has a
+                                            diverse and large practice across the country in litigation and
+                                            international
+                                            arbitration leading one of the largest filing offices in the Supreme Court
+                                            of
+                                            India.
+                                            He is widely considered an expert in regulatory disputes, insolvency,
+                                            corporate
+                                            commercial arbitration, international investment arbitration, general
+                                            commercial
+                                            disputes, general civil disputes, and corporate crimes. He has represented
+                                            some
+                                            of India’s largest clientele in infrastructure, energy and telecoms
+                                            industries,
+                                            including Adani Group, Tata Group, and Reliance Group and international
+                                            clientele, including Monsanto and Vodafone Plc, in litigations and
+                                            arbitrations
+                                            involving transnational and domestic commercial transactions before
+                                            international and national fora.
+
+                                            Mahesh is a third-generation lawyer and an alumnus of the Shri Ram College
+                                            of
+                                            Commerce, New Delhi, and the Government Law College, Mumbai.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row cardPadding">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body  boxShadow">
+                        <div class="name">
+                            <img src="images/Mahesh Agrawal.png" alt="">
+                            <div class="name-col">
+                                <p>Mahesh Agarwal</p>
+                                <p>Agarwal Law Associates</p>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <p class="card-text">
+                            <p>Tel: +91 11 4220 0000</p>
+                            <p>Email: mahesh.agarwal@aglaw.in</p>
+                            <p>Key practice areas: Arbitration & ADR; intellectual property; litigation; power & energy
+                            </p>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Profile
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Mahesh Agarwal is managing partner of Agarwal Law Associates, one of the
+                                            foremost full-service law firms in India. He is widely considered to be a
+                                            leading figure with a wealth of experience in dispute resolution. He has a
+                                            diverse and large practice across the country in litigation and
+                                            international
+                                            arbitration leading one of the largest filing offices in the Supreme Court
+                                            of
+                                            India.
+                                            He is widely considered an expert in regulatory disputes, insolvency,
+                                            corporate
+                                            commercial arbitration, international investment arbitration, general
+                                            commercial
+                                            disputes, general civil disputes, and corporate crimes. He has represented
+                                            some
+                                            of India’s largest clientele in infrastructure, energy and telecoms
+                                            industries,
+                                            including Adani Group, Tata Group, and Reliance Group and international
+                                            clientele, including Monsanto and Vodafone Plc, in litigations and
+                                            arbitrations
+                                            involving transnational and domestic commercial transactions before
+                                            international and national fora.
+
+                                            Mahesh is a third-generation lawyer and an alumnus of the Shri Ram College
+                                            of
+                                            Commerce, New Delhi, and the Government Law College, Mumbai.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row cardPadding">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body boxShadow">
+                        <div class="name">
+                            <img src="images/Mahesh Agrawal.png" alt="">
+                            <div class="name-col">
+                                <p>Mahesh Agarwal</p>
+                                <p>Agarwal Law Associates</p>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <p class="card-text">
+                            <p>Tel: +91 11 4220 0000</p>
+                            <p>Email: mahesh.agarwal@aglaw.in</p>
+                            <p>Key practice areas: Arbitration & ADR; intellectual property; litigation; power & energy
+                            </p>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Profile
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Mahesh Agarwal is managing partner of Agarwal Law Associates, one of the
+                                            foremost full-service law firms in India. He is widely considered to be a
+                                            leading figure with a wealth of experience in dispute resolution. He has a
+                                            diverse and large practice across the country in litigation and
+                                            international
+                                            arbitration leading one of the largest filing offices in the Supreme Court
+                                            of
+                                            India.
+                                            He is widely considered an expert in regulatory disputes, insolvency,
+                                            corporate
+                                            commercial arbitration, international investment arbitration, general
+                                            commercial
+                                            disputes, general civil disputes, and corporate crimes. He has represented
+                                            some
+                                            of India’s largest clientele in infrastructure, energy and telecoms
+                                            industries,
+                                            including Adani Group, Tata Group, and Reliance Group and international
+                                            clientele, including Monsanto and Vodafone Plc, in litigations and
+                                            arbitrations
+                                            involving transnational and domestic commercial transactions before
+                                            international and national fora.
+
+                                            Mahesh is a third-generation lawyer and an alumnus of the Shri Ram College
+                                            of
+                                            Commerce, New Delhi, and the Government Law College, Mumbai.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
